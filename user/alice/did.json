@@ -1,14 +1,26 @@
 {
-    "issuerKey": {
-        "type": "jwk",
-        "jwk": {
-            "kty": "EC",
-            "d": "pWNCj6mHx5XDoBBr09dupbgwqJ3yFm594MJYjS4vxVg",
-            "crv": "secp256k1",
-            "kid": "1os3fjNTStyGSIlscmVPNN9Dx0aON9btfFx8ARt2MYY",
-            "x": "d-wSuYDvIalgrauPT9SgaxRnWjiyZm-446KgrUp3ncA",
-            "y": "2j0hAChw6W8LW04SyncbBKJR4203z0j7eRB0MuW-7YA"
-        }
-    },
-    "issuerDid": "did:web:sophialiuhk2007.github.io:user:alice"
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:sophialiuhk2007.github.io:user:alice",
+  "verificationMethod": [
+    {
+      "id": "did:web:sophialiuhk2007.github.io:user:alice#owner",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:sophialiuhk2007.github.io:user:alice",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "d-wSuYDvIalgrauPT9SgaxRnWjiyZm-446KgrUp3ncA",
+        "y": "2j0hAChw6W8LW04SyncbBKJR4203z0j7eRB0MuW-7YA"
+      }
+    }
+  ],
+  "authentication": [
+    "did:web:sophialiuhk2007.github.io:user:alice#owner"
+  ],
+  "assertionMethod": [
+    "did:web:sophialiuhk2007.github.io:user:alice#owner"
+  ]
 }
