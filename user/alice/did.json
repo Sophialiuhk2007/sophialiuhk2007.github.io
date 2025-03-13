@@ -3,12 +3,12 @@
         "type": "jwk",
         "jwk": {
             "kty": "EC",
-            "d": "4iFFWlMEKfpw_5ahp48eq6b-ue1ryjqS1HIszpuv5Ow",
+            "d": "pWNCj6mHx5XDoBBr09dupbgwqJ3yFm594MJYjS4vxVg",
             "crv": "secp256k1",
-            "kid": "kn44Iu8dqbGcMt-EtIzgzyLaffojgcqFPDqgnYhx0Lk",
-            "x": "8ra9n-sh6qKMFVRQEhhYFv8DWBlk1yUiko6nfhMVkbk",
-            "y": "3h_ycvuxRgRv0_Pd__J6SYKS8wO_rcKeY8WTBqZ6PDw"
+            "kid": "1os3fjNTStyGSIlscmVPNN9Dx0aON9btfFx8ARt2MYY",
+            "x": "d-wSuYDvIalgrauPT9SgaxRnWjiyZm-446KgrUp3ncA",
+            "y": "2j0hAChw6W8LW04SyncbBKJR4203z0j7eRB0MuW-7YA"
         }
     },
-    "issuerDid": "did:web:sophialiuhk2007.github.io:alice"
+    "issuerDid": "did:web:sophialiuhk2007.github.io:user:alice"
 }
