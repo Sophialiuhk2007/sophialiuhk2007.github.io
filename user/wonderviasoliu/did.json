@@ -1,0 +1,36 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:sophialiuhk2007.github.io:user:wonderviasoliu",
+  "verificationMethod": [
+    {
+      "id": "did:web:sophialiuhk2007.github.io:user:wonderviasoliu#ZXouWpkziEJv0Btz8JhXu4qwbbGruW-dKmLMaBJI5cM",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:sophialiuhk2007.github.io:user:wonderviasoliu",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "secp256k1",
+        "kid": "ZXouWpkziEJv0Btz8JhXu4qwbbGruW-dKmLMaBJI5cM",
+        "x": "L91_P2UuPcWQeo-eFlHrigbMbCTP28bmQACyTnt0fX4",
+        "y": "yaNBo6NDbfEe9EJ8cXlxhaujoUUAvdg7vYtDTtCtlA8"
+      }
+    }
+  ],
+  "assertionMethod": [
+    "did:web:sophialiuhk2007.github.io:user:wonderviasoliu#ZXouWpkziEJv0Btz8JhXu4qwbbGruW-dKmLMaBJI5cM"
+  ],
+  "authentication": [
+    "did:web:sophialiuhk2007.github.io:user:wonderviasoliu#ZXouWpkziEJv0Btz8JhXu4qwbbGruW-dKmLMaBJI5cM"
+  ],
+  "capabilityInvocation": [
+    "did:web:sophialiuhk2007.github.io:user:wonderviasoliu#ZXouWpkziEJv0Btz8JhXu4qwbbGruW-dKmLMaBJI5cM"
+  ],
+  "capabilityDelegation": [
+    "did:web:sophialiuhk2007.github.io:user:wonderviasoliu#ZXouWpkziEJv0Btz8JhXu4qwbbGruW-dKmLMaBJI5cM"
+  ],
+  "keyAgreement": [
+    "did:web:sophialiuhk2007.github.io:user:wonderviasoliu#ZXouWpkziEJv0Btz8JhXu4qwbbGruW-dKmLMaBJI5cM"
+  ]
+}
